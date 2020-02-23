@@ -1,0 +1,2 @@
+# MicroRabbit
+uService with RabbitMQ
