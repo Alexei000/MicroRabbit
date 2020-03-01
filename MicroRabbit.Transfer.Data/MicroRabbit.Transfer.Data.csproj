@@ -5,12 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CommandHandlers\" />
-    <Folder Include="Events\" />
-    <Folder Include="Commands\" />
-    <Folder Include="EventHandlers\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Models\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroRabbit.Transfer.Domain\MicroRabbit.Transfer.Domain.csproj" />
   </ItemGroup>
 
 </Project>
